@@ -29,7 +29,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="D:\bahan pbo\BBBBBBBBBB.png"/>
+          <Image iconType="3" name="/AppPackage/BBBBBBBBBB.png"/>
         </Property>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
           <Color id="Hand Cursor"/>
@@ -47,7 +47,7 @@
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="D:\bahan pbo\Untitled-2.png"/>
+          <Image iconType="3" name="/AppPackage/Untitled-2.png"/>
         </Property>
       </Properties>
       <Constraints>

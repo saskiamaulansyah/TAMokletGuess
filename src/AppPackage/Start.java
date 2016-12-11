@@ -55,7 +55,7 @@ public class Start extends javax.swing.JFrame {
         getContentPane().add(jLabel3);
         jLabel3.setBounds(10, 0, 70, 90);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\asasaa.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/asasaa.png"))); // NOI18N
         jLabel6.setText("jLabel6");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(430, 0, 210, 90);

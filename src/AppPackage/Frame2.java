@@ -37,7 +37,7 @@ public class Frame2 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\1.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/1.png"))); // NOI18N
         jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -45,9 +45,9 @@ public class Frame2 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(260, 150, 130, 149);
+        jLabel1.setBounds(260, 150, 130, 150);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\2.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/2.png"))); // NOI18N
         jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -55,9 +55,9 @@ public class Frame2 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(190, 270, 130, 144);
+        jLabel3.setBounds(190, 270, 130, 150);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\3.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/3.png"))); // NOI18N
         jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -67,7 +67,7 @@ public class Frame2 extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(320, 270, 130, 150);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\level.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/level.png"))); // NOI18N
         getContentPane().add(jLabel2);
         jLabel2.setBounds(0, 0, 650, 450);
 

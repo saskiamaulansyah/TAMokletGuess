@@ -83,7 +83,7 @@ public class Level2 extends javax.swing.JFrame {
         getContentPane().add(satu);
         satu.setBounds(110, 120, 120, 60);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\btn.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/next.png"))); // NOI18N
         jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -91,9 +91,9 @@ public class Level2 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(180, 10, 300, 60);
+        jLabel1.setBounds(230, 10, 190, 60);
 
-        SJSAKJSSA.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\lv2.png")); // NOI18N
+        SJSAKJSSA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/lv2.png"))); // NOI18N
         getContentPane().add(SJSAKJSSA);
         SJSAKJSSA.setBounds(0, 0, 650, 470);
 

@@ -29,6 +29,9 @@ public class Level1a extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel12 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -40,7 +43,25 @@ public class Level1a extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\qwqw.png")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/vvvvvvvvv.png"))); // NOI18N
+        jLabel12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel12MouseClicked(evt);
+            }
+        });
+        getContentPane().add(jLabel12);
+        jLabel12.setBounds(30, 370, 268, 52);
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/sas.png"))); // NOI18N
+        getContentPane().add(jLabel10);
+        jLabel10.setBounds(0, 180, 60, 80);
+
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/sas.png"))); // NOI18N
+        getContentPane().add(jLabel11);
+        jLabel11.setBounds(560, 190, 80, 80);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/qwqw.png"))); // NOI18N
         jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -50,7 +71,7 @@ public class Level1a extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(30, 290, 270, 60);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\as.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/as.png"))); // NOI18N
         jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -60,7 +81,7 @@ public class Level1a extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(340, 360, 260, 60);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\aqw.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/aqw.png"))); // NOI18N
         jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -70,7 +91,6 @@ public class Level1a extends javax.swing.JFrame {
         getContentPane().add(jLabel3);
         jLabel3.setBounds(340, 290, 260, 60);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\q.png")); // NOI18N
         jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -78,17 +98,13 @@ public class Level1a extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(30, 370, 268, 54);
-
-        jLabel8.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\sas.png")); // NOI18N
+        jLabel7.setBounds(30, 370, 0, 0);
         getContentPane().add(jLabel8);
-        jLabel8.setBounds(560, 190, 74, 80);
-
-        jLabel9.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\sas.png")); // NOI18N
+        jLabel8.setBounds(560, 190, 0, 80);
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(0, 190, 74, 80);
+        jLabel9.setBounds(0, 190, 0, 80);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\12.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/12.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(-10, -20, 670, 510);
 
@@ -122,6 +138,12 @@ public class Level1a extends javax.swing.JFrame {
 
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel3MouseClicked
+
+    private void jLabel12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MouseClicked
+        JOptionPane.showMessageDialog(null, "Anda salah");
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel12MouseClicked
 
     /**
      * @param args the command line arguments
@@ -160,6 +182,9 @@ public class Level1a extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

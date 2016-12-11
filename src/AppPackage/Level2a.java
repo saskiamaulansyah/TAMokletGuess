@@ -30,11 +30,15 @@ public class Level2a extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel3 = new javax.swing.JLabel();
-        SATU = new javax.swing.JTextField();
-        DUA = new javax.swing.JTextField();
-        TIGA = new javax.swing.JTextField();
-        EMPAT = new javax.swing.JTextField();
-        LIMA = new javax.swing.JTextField();
+        E = new javax.swing.JTextField();
+        L = new javax.swing.JTextField();
+        N = new javax.swing.JTextField();
+        S = new javax.swing.JTextField();
+        SE = new javax.swing.JTextField();
+        U = new javax.swing.JTextField();
+        D = new javax.swing.JTextField();
+        T = new javax.swing.JTextField();
+        A = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
@@ -42,7 +46,7 @@ public class Level2a extends javax.swing.JFrame {
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         getContentPane().setLayout(null);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\btn.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/next.png"))); // NOI18N
         jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -50,48 +54,70 @@ public class Level2a extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(180, 10, 300, 60);
+        jLabel3.setBounds(240, 0, 190, 50);
 
-        SATU.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
-        SATU.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        SATU.setBorder(null);
-        getContentPane().add(SATU);
-        SATU.setBounds(40, 130, 80, 60);
+        E.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
+        E.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        E.setBorder(null);
+        getContentPane().add(E);
+        E.setBounds(50, 170, 70, 50);
 
-        DUA.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
-        DUA.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        DUA.setBorder(null);
-        getContentPane().add(DUA);
-        DUA.setBounds(160, 130, 80, 60);
+        L.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
+        L.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        L.setBorder(null);
+        getContentPane().add(L);
+        L.setBounds(150, 170, 60, 50);
 
-        TIGA.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
-        TIGA.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        TIGA.setBorder(null);
-        TIGA.addActionListener(new java.awt.event.ActionListener() {
+        N.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
+        N.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        N.setBorder(null);
+        N.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TIGAActionPerformed(evt);
+                NActionPerformed(evt);
             }
         });
-        getContentPane().add(TIGA);
-        TIGA.setBounds(280, 130, 80, 60);
+        getContentPane().add(N);
+        N.setBounds(240, 170, 70, 50);
 
-        EMPAT.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
-        EMPAT.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        EMPAT.setBorder(null);
-        getContentPane().add(EMPAT);
-        EMPAT.setBounds(400, 130, 90, 60);
+        S.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
+        S.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        S.setBorder(null);
+        getContentPane().add(S);
+        S.setBounds(190, 70, 70, 60);
 
-        LIMA.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
-        LIMA.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        LIMA.setBorder(null);
-        getContentPane().add(LIMA);
-        LIMA.setBounds(520, 130, 90, 60);
+        SE.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
+        SE.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        SE.setBorder(null);
+        getContentPane().add(SE);
+        SE.setBounds(530, 170, 70, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\assddd.png")); // NOI18N
+        U.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
+        U.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        U.setBorder(null);
+        getContentPane().add(U);
+        U.setBounds(340, 170, 60, 50);
+
+        D.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
+        D.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        D.setBorder(null);
+        getContentPane().add(D);
+        D.setBounds(290, 70, 70, 60);
+
+        T.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
+        T.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        T.setBorder(null);
+        getContentPane().add(T);
+        T.setBounds(390, 70, 70, 60);
+
+        A.setFont(new java.awt.Font("Tekton Pro", 1, 24)); // NOI18N
+        A.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        A.setBorder(null);
+        getContentPane().add(A);
+        A.setBounds(430, 170, 70, 50);
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 260, 670, 220);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\lv21.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/SSSSSSSSSSSSSSSS.png"))); // NOI18N
         getContentPane().add(jLabel2);
         jLabel2.setBounds(0, 0, 660, 480);
 
@@ -100,24 +126,30 @@ public class Level2a extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
-        if (SATU.getText().equals("L") && DUA.getText().equals("A") && TIGA.getText().equals("R")&& EMPAT.getText().equals("S")&& LIMA.getText().equals("O")){
-            new Level2b().setVisible(true);
-            dispose();
+        if (S.getText().equals("P") && D.getText().equals("A") && T.getText().equals("K")&& E.getText().equals("A")&& L.getText().equals("R")&& N.getText().equals("I")&& U.getText().equals("F")&& A.getText().equals("I")&& SE.getText().equals("N")){
+            JOptionPane.showMessageDialog(null, "LEVEL 3");
+        new Level3().setVisible(true);
+        dispose();
+        JOptionPane.showMessageDialog(null, "Pakai huruf kapital ya:)");
         }else {
             JOptionPane.showMessageDialog(null, "ulang lagi");
-            SATU.setText("");
-            DUA.setText("");
-            TIGA.setText("");
-            EMPAT.setText("");
-            LIMA.setText("");
+            S.setText("");
+            D.setText("");
+            T.setText("");
+            E.setText("");
+            L.setText("");
+            N.setText("");
+            U.setText("");
+            A.setText("");
+            SE.setText("");
         }
 
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel3MouseClicked
 
-    private void TIGAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TIGAActionPerformed
+    private void NActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_TIGAActionPerformed
+    }//GEN-LAST:event_NActionPerformed
 
     /**
      * @param args the command line arguments
@@ -155,11 +187,15 @@ public class Level2a extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField DUA;
-    private javax.swing.JTextField EMPAT;
-    private javax.swing.JTextField LIMA;
-    private javax.swing.JTextField SATU;
-    private javax.swing.JTextField TIGA;
+    private javax.swing.JTextField A;
+    private javax.swing.JTextField D;
+    private javax.swing.JTextField E;
+    private javax.swing.JTextField L;
+    private javax.swing.JTextField N;
+    private javax.swing.JTextField S;
+    private javax.swing.JTextField SE;
+    private javax.swing.JTextField T;
+    private javax.swing.JTextField U;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

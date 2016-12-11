@@ -47,7 +47,7 @@ public class Level3b extends javax.swing.JFrame {
         getContentPane().add(desktop);
         desktop.setBounds(220, 160, 240, 40);
 
-        next.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\next.png")); // NOI18N
+        next.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/next.png"))); // NOI18N
         next.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         next.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -57,7 +57,7 @@ public class Level3b extends javax.swing.JFrame {
         getContentPane().add(next);
         next.setBounds(240, 210, 190, 40);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\PBO.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/PBO.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 0, 650, 470);
 

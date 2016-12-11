@@ -33,7 +33,7 @@ public class Setting extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\BBBBBBBBBB.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/BBBBBBBBBB.png"))); // NOI18N
         jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -43,9 +43,9 @@ public class Setting extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(50, 40, 60, 70);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\bahan pbo\\dddwwwws.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AppPackage/dddwwwws.png"))); // NOI18N
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, 0, 646, 480);
+        jLabel3.setBounds(0, -10, 646, 490);
 
         setSize(new java.awt.Dimension(661, 516));
         setLocationRelativeTo(null);
